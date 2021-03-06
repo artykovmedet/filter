@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<section class="hero">
+    <div class="container">
+<div class="filters">
+    <button class="btn" id="blur">Blur</button>
+  <button class="btn" id="sepia">Sepia</button>
+  <button class="btn" id="inverts">Inverts</button>
+</div>
+<div class="input">
+<input type="range" min="-100" max="100" value="0" class="gorizontal">
+    <div class="percent"></div>
+</div>
+<div class="box">
+    <img src="./images/mountain.jpg" alt="" class="color-img" id="myImg">
+</div>
+    </div>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
